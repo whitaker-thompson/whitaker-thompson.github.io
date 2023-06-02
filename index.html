@@ -28,7 +28,7 @@
             #map {
                 background-image: url('IceRinkDiagram.jpg');
                 background-size: cover;
-                height: 400px;
+                height: 100px;
             }
         </style>
     </head>
@@ -40,7 +40,7 @@
         var imageUrl = 'IceRinkDiagram.jpg',
         imageBounds = [[40.712216, -74.22655], [40.773941, -74.12544]];
 
-        L.imageOverlay(imageUrl, imageBounds);
+        L.imageOverlay(imageUrl, imageBounds).addTo(map);
     </script>
 
 </body>
